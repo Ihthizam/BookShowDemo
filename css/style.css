@@ -185,6 +185,14 @@ section{
 	line-height: 1.5;
 }
 
+.text p{
+	text-align: justify;
+}
+.text h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
 .swiper-slide img{
 	object-fit: cover;
 	border-radius: 30px;
