@@ -192,6 +192,29 @@ section{
 	text-align: center;
 	margin-bottom: 10px;
 }
+.text a {
+	position: sticky;  /* Keeps it within .text */
+    bottom: 0;
+	left: 5px;
+    background-color: rgb(43, 110, 204); /* A blue background color for the button */
+    padding: 5px 10px;        /* Internal spacing */
+    border-radius: 5px;        /* Rounded corners */
+    text-decoration: none;     /* Removes underline */
+    letter-spacing: 0.7px;
+    font-size: 14px;
+    color: #fff;               /* White text */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+
+}
+
+.text a i {
+	transition: 0.5s;
+}
+
+.text a:hover i {
+	transform: translateX(10px);
+}
+
 
 .swiper-slide img{
 	object-fit: cover;
@@ -299,21 +322,6 @@ section{
     background: transparent; /* Hide scrollbar track */
 }
 
-.text a {
-	display: block;
-	text-decoration: none;
-	letter-spacing: 0.7px;
-	font-size: 14px;
-	color: #fff;
-}
-
-.text a i {
-	transition: 0.5s;
-}
-
-.text a:hover i {
-	transform: translateX(10px);
-}
 
 
 
